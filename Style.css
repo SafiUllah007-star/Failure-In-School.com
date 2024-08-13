@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Change font style */
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #FFB6C1, #FF69B4); /* Colorful gradient background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center; /* Center align heading */
+    color: #2C3E50; /* Dark blue color for the main heading */
+    margin: 20px 0;
+    font-size: 2em; /* Increase font size */
+    font-family: 'Georgia', serif; /* Change font style */
+}
+
+/* Heading Styles */
+h2 {
+    color: #E74C3C; /* Red color for h2 headings */
+    margin: 20px 0;
+    padding-left: 0.25in; /* Push headings 0.25" from the left */
+    font-size: 1.75em; /* Increase font size */
+    font-family: 'Verdana', sans-serif; /* Change font style */
+    background: #F5B7B1; /* Light red background for h2 headings */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #3498DB; /* Blue color for h3 headings */
+    margin: 20px 0;
+    padding-left: 0.25in; /* Push headings 0.25" from the left */
+    font-size: 1.5em; /* Increase font size */
+    font-family: 'Verdana', sans-serif; /* Change font style */
+    background: #D6EAF8; /* Light blue background for h3 headings */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h4 {
+    color: #27AE60; /* Green color for h4 headings */
+    margin: 20px 0;
+    padding-left: 0.25in; /* Push headings 0.25" from the left */
+    font-size: 1.25em; /* Increase font size */
+    font-family: 'Verdana', sans-serif; /* Change font style */
+    background: #A9DFBF; /* Light green background for h4 headings */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Paragraph Styles */
+p {
+    margin: 0.5em 0; /* Add some space above and below paragraphs */
+    padding: 0 0.5in; /* Contract paragraphs 0.5" from both sides */
+    font-size: 1.1em; /* Increase font size */
+}
+
+/* Border and Background Styles */
+section {
+    border: 2px solid #BDC3C7; /* Light grey border */
+    border-radius: 10px;
+    background: #ffffff; /* White background for sections */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Colorful Backgrounds for Headings */
+h2 {
+    background: #F5B7B1; /* Light red background */
+}
+
+h3 {
+    background: #D6EAF8; /* Light blue background */
+}
+
+h4 {
+    background: #A9DFBF; /* Light green background */
+}
+
+/* Image Styles */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2C3E50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
